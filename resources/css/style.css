@@ -1,5 +1,8 @@
+h1, h2, body, p {
+  font-family: Verdana, sans-serif;
+}
+
 h1 {
-  font-family: Verdana;
   font-size: 50px;
   text-align: center;
   color: white;
@@ -8,4 +11,32 @@ h1 {
 body {
   background-color: black;
   color: white;
+  text-align: center;
+}
+
+.link {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+video {
+  object-fit: contain;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+p {
+  font-size: 21px;
+  color: gray;
+}
+img {
+  padding-top: 20px;
+}
+
+footer {
+  text-align: right;
+  color: gray;
 }
